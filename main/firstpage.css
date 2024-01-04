@@ -1,0 +1,147 @@
+.top{
+    display:flex;
+    flex-direction:row;
+    background-color:white;
+    padding-left: 80px;
+    padding-right: 80px;
+    padding-bottom: 20px;
+    
+}
+.logo{
+    margin-right:20px;
+    flex-grow:1;
+    margin: auto;
+}
+.btns{
+    flex-grow:1;
+    font-size: 17px;
+    font-weight: 600;
+    padding: 12px;
+    font-family: sans-serif;
+    color:#000000;
+    justify-content:center;
+    margin: auto;
+}
+.logIn{
+    height:fit-content;
+    width: fit-content;
+    display: inline-flex;
+    flex-grow:1;
+    border-radius:20px;
+    justify-content: flex-end;
+    align-items: center;
+    background-color: #00baf2;
+    margin: auto;
+    padding: 2px;
+}
+#btn{
+    text-decoration: none;
+    color: black;
+    font-family: sans-serif;
+    margin-right:20px;
+    font-size: 15px;
+}
+#logInbtn{
+    height: fit-content;
+    width:fit-content;
+    padding-right: 10px;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+}
+#logInbtnImg{
+    height: fit-content;
+    width:fit-content;
+    align-items: center;
+    justify-content: flex-end;
+}
+/* .logIn a,img{
+    height: fit-content;
+    width:fit-content;
+    text-decoration: none;
+    color: white;
+    align-items: center;
+    justify-content: flex-end;
+    padding-inline-end: 9px;
+    font-family: sans-serif;
+    font-size: 15px;
+    font-weight: 600;
+
+} */
+
+.motto{
+    display:flex;
+    height:48px;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    font-size: 15px;
+    font-family: sans-serif;
+    justify-content: center;
+    background-color: #f6f6f6;
+    
+}
+#moto1,
+#moto2,
+#moto3,
+#moto4{
+    align-self: center;
+    padding-right: 5px;
+}
+#moto1{
+    font-size: 15px;
+    font-weight: 600;
+}
+#moto2{
+    font-size: 25px;
+}
+#moto3{
+    font-size: 15px;
+}
+#moto4{
+    font-size: 15px;
+    font-weight: 600;
+}
+.boody{
+    display:flex;
+    flex-direction:row;
+    flex-wrap: nowrap;
+    padding-top: 120px;
+}
+#boodyz{
+    display:flex;
+    flex-direction:column;
+    flex-wrap: nowrap;
+    margin-right: 30px;
+    padding-right: 300px;
+    padding-left:80px;
+
+}
+#a {
+    height:fit-content;
+    width: fit-content;
+    padding: 10px;
+    display: inline-flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    font-size:15px;
+    font-family: sans-serif;
+    color:white;
+    border-radius:50px;
+    background-color:black;
+
+  }
+
+  #a p{
+    margin:0;
+    padding-left: 20px;
+    padding-right: 5px;
+  }
+
+  #a img{
+    padding-right: 5px;
+  }
